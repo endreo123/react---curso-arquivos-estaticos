@@ -13,6 +13,7 @@ export const Buscador = ({busca, setBusca}: Props) => {
             <input 
                 value={busca}
                 onChange={evento => setBusca(evento.target.value)}
+                placeholder="Buscar"
             />
             <CgSearch 
                 size={20}
