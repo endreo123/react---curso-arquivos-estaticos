@@ -35,7 +35,11 @@ export const Cardapio = () => {
                         setOrdenador={setOrdenador}
                     />
                 </div>
-                <Itens />
+                <Itens 
+                    busca={busca}
+                    filtro={filtro}
+                    ordenador={ordenador}
+                />
             </section>
         </main>
     )
